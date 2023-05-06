@@ -1,4 +1,5 @@
 import ComposableArchitecture
+import UserDefaultsDependency
 
 public struct ExampleFeature: ReducerProtocol {
 
@@ -7,7 +8,7 @@ public struct ExampleFeature: ReducerProtocol {
   }
 
   public enum Action: Hashable, Sendable {
-
+    case test
   }
 
   public var body: some ReducerProtocol<State, Action> {

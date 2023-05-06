@@ -25,6 +25,7 @@ let package = Package(
       name: "ExampleFeature",
       dependencies: [
         .product(name: "ComposableArchitecture", package: "swift-composable-architecture"),
+        .product(name: "DependenciesAdditions", package: "swift-dependencies-additions"),
       ]
     ),
     .testTarget(
